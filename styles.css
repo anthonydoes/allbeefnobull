@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700,700italic,regular,italic|David+Libre:700,regular');
+
+
+body {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #47353a;
+  }
+  
+  header {
+    /* overflow: hidden; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+  }
+
+  header img {
+      width: 200px;
+  }
+  
+  header nav a {
+    color: #47353a;
+    text-decoration: none;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    transition: 0.1s ease;
+  }
+
+  header nav a:hover {
+      border-bottom: 3px solid #a56767;
+      transition: 0.1s ease;
+  }
+  
+  .hero {
+    background-image: url(/images/hero2.jpeg);
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    background-position: right center;
+    filter: opacity(0.8);
+    color:#f7f1ee
+  }
+  
+  div.heroDiv {
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #31072896;
+    border-radius: 20px;
+    padding: 1px 5px 30px 5px;
+  }
+  
+  .hero h2 {
+    font-family: David Libre;
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+  
+  .hero p {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  a.button {
+    display: inline-block;
+    margin: 20px 0 0 0;
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    padding: 10px 20px 10px 20px;
+    color: #ebebeb;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.6s ease;
+  }
+
+  a.button:hover {
+      background-color: #f7f1ee;
+      color: #3a3a3a;
+      transition: 0.6s ease;
+  }
+
+  section.product {
+      display: flex;
+      justify-content: center;
+  }
+
+  div.productCopy {
+    padding: 120px;
+
+  }
+
+  img.productImage{
+      padding: 40px;
+  }
+
+  a.productButton {
+    display: inline-block;
+    margin: 20px 0 0 0;
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    padding: 10px 20px 10px 20px;
+    color: #f3f3fe;
+    background-color: #c99898;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.6s ease;
+  }
+  
+  a.productButton:hover {
+    background-color: #a56767;
+    color: #f8cfcf;
+    transition: 0.6s ease;
+}
+
+  .dogs {
+    overflow: hidden;
+  }
+  
+  .dogs img {
+    float: left;
+    width: 33.3%;
+  }
+  
+  .quotes {
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .quotes div {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 50px 20px 40px 20px;
+  }
+  
+  .cream-background {
+    background-color: #f7f1ee;
+  }
+  
+  img.testimonialImg {
+    width: 175px;
+    border-radius: 100%;
+    padding-bottom: 20px;
+  }
+
+  img.review {
+      width: 20px;
+  }
+
+  span {
+      margin-top: 50px;
+  }
+  
+  .quotes blockquote {
+    font-family: David Libre;
+    font-size: 24px;
+    line-height: 1.15;
+    font-weight: 700;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 15px auto 7px auto;
+  }
+
+  div.testimonials {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+      background-color: #2d2d2d;
+  }
+
+  a.testimonialsButton {
+    display: inline-block;
+    /* border: 2px solid #ffffff; */
+    padding: 10px 20px 10px 20px;
+    color: #f3f3fe;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.6s ease;
+  }
+  
+  a.testimonialsButton:hover {
+      background-color: #fefefe;
+      color: #2d2d2d;
+      transition: 0.6s ease;
+  }
+  .buyMore {
+    background-image: url(/images/cookiesHeroBlueMatte.jpeg);
+    background-position: center bottom;
+    padding: 0;
+    height: 500px;
+  }
+
+  div.buyMoreDiv {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+  }
+
+  a.buyMoreButton {
+    display: inline-block;
+    margin: 20px 0 0 0;
+    border-radius: 40px;
+    padding: 20px 40px 20px 40px;
+    color: #3535fc;
+    background-color: #fefefe;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 0.6s ease;
+  }
+
+  a.buyMoreButton:hover {
+      background-color: #3535fc;
+      color: #fefefe;
+      transition: 0.6s ease;
+  }
+  
+  footer {
+    background-color: #47353a;
+    padding: 10px 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#fefefe;
+  }
+  
+img.footerLogo {
+    filter: invert(100%);
+    width: 150px;
+  }
+
+img.socialIcon {
+    width: 30px;
+}
+  
+  footer p {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  footer a {
+      text-decoration: none;
+      color:#6193ee;
+  }
+  
+  /* Responsive */
+  
+  @media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 5px;
+    }
+  
+    .hero {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+  
+    .chair {
+      height: 320px;
+    }
+  
+    .quotes div {
+      float: none;
+      width: auto;
+      padding: 30px 30px 40px 30px;
+    }
+  
+    .quotes blockquote {
+      font-size: 20px;
+    }
+  
+    .quotes p {
+      display: none;
+    }
+  
+    header nav {
+      /*   This keeps the nav vertically aligned with our h1   */
+      line-height: 24px;
+    }
+  }
+  
+  @media (max-width: 420px) {
+    header h1,
+    header nav {
+      float: none;
+    }
+  
+    header nav a {
+      margin-left: 0;
+      margin-right: 12px;
+    }
+  
+    .flowers img {
+      float: none;
+      width: auto;
+    }
+  
+    footer {
+      padding: 30px 20px;
+    }
+  }
+  
+  @media (max-width: 820px) {
+    .logos img {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+  
+  @media (max-width: 680px) {
+    .logos img {
+      margin: 0 auto 35px auto;
+      /*   Display block here gives us the stacked effect   */
+      display: block;
+    }
+  
+    .logos img:last-child {
+      /*   here we removes the margin from the last image   */
+      margin-bottom: 0;
+    }
+  }
+  /* These styles only get applied above 820 px screen width  */
+  @media (min-width: 820px) {
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      box-shadow: 0 1px 5px 0px rgba(51, 51, 51, 0.2);
+    }
+  
+}
+
+@media (max-width:800px) {
+    img.productImage {
+        height: 200px;
+        margin-top: 150px;
+        margin-right: 50px;    
+    }
+}
+
+@media (max-width: 1100px) {
+    img.productImage {
+        padding: 0;
+        width: 50%;
+    }
+}
+
+  
