@@ -697,8 +697,8 @@ img.socialIcon {
       }
 
       .largeHeader {
-          padding-top: 30px;
-          font-size: 18px;
+          padding-top: 50px;
+          font-size: 22px;
         }
 
       section.product {
@@ -773,7 +773,7 @@ img.socialIcon {
     }
 
     .largeHeaderTestimonial {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     /* Form */
