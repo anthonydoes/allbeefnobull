@@ -356,6 +356,7 @@ img.socialIcon {
       color: #3a3a3a;
       transition: 0.5s ease;
       border-radius: 15px;
+      border: 3px solid #b2cdf1;
   }
   
   /* Responsive */
@@ -520,6 +521,10 @@ img.socialIcon {
     footer {
         display: block;
         text-align: center;
+    }
+
+    a.topButton {
+        display: none;
     }
 
 }
