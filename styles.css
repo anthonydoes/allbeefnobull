@@ -509,7 +509,7 @@ img.socialIcon {
       padding: 5px;
     }
     
-    .button {
+    .contactButton {
       background-color: #a56767;
       border-color: #a56767;
       color: #f8cfcf;
@@ -526,7 +526,7 @@ img.socialIcon {
       transition: ease 0.3s;
     }
     
-    .button:hover {
+    .contactButton:hover {
         background-color: #f8cfcf;
         border-color: #f8cfcf;
         color: #a56767;
