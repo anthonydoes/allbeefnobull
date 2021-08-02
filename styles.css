@@ -87,6 +87,14 @@ body {
       transition: 0.6s ease;
   }
 
+  .productHeader {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    border-bottom: 5px solid black;
+    font-size: 30px;
+  }
+
   section.product {
       display: flex;
       justify-content: center;
@@ -99,6 +107,7 @@ body {
 
   img.productImage{
       padding: 40px;
+      width: 600px;
   }
 
   a.productButton {
@@ -274,10 +283,6 @@ img.socialIcon {
       padding-bottom: 80px;
     }
   
-    .chair {
-      height: 320px;
-    }
-  
     .quotes div {
       float: none;
       width: auto;
@@ -332,7 +337,6 @@ img.socialIcon {
 
 @media (max-width:800px) {
     img.productImage {
-        height: 200px;
         margin-top: 150px;
         margin-right: 50px;    
     }
@@ -371,12 +375,17 @@ img.socialIcon {
           border-color: #3a3a3a;
       }
 
+      .productHeader {
+          padding-top: 20px;
+      }
+
       section.product {
           display: block;
       }
 
       div.productCopy { 
         padding: 30px;
+        margin-bottom: 50px;
       }
 
       section.productReverse {
@@ -390,6 +399,7 @@ img.socialIcon {
         width: 100%;
         border-radius: 20px;
         margin-right: 5px;
+        margin-top: 80px;
     }
 
     section.quotes {
