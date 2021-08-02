@@ -373,19 +373,19 @@ img.socialIcon {
 
   /* About page */
 
-  .aboutHero {
+  .pageHero {
     background-image: url(/images/aboutHero.jpg);
     margin-bottom: 60px;
+    color: #242424;
   }
   
 
-  .aboutHeroHeader {
+  .pageHeroHeader {
     display: flex;
     justify-content: center;
     padding-top: 50px;
     font-size: 30px;
     text-transform: uppercase;
-    color: #3a3a3a;
   }
 
   section.story {
@@ -421,6 +421,16 @@ img.socialIcon {
       border-bottom: 2px solid #3a3a3a;
       color: #3a3a3a;
   }
+
+
+    /* Testimonial page */
+
+    .testimonialsHero {
+        background-image: url(/images/testimonialsHero.jpg);
+        margin-bottom: 60px;
+        color: #fefefe;
+      }
+      
   
   /* Responsive */
   
@@ -605,9 +615,18 @@ img.socialIcon {
         margin-top: 40px;
     }
 
-    div.aboutHeroHeader {
+    div.pageHeroHeader {
         padding: 50px 0 50px 0;
     }
+
+    .cream-background {
+        background-color: #fefefe;
+    }
+
+    .largeHeaderTestimonial {
+        font-size: 22px;
+    }
+
 
 }
 
