@@ -471,12 +471,6 @@ img.socialIcon {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
     
-    label {
-      color: #3a3a3a;
-      font-weight: 900;
-      padding-right: 15px;
-    }
-    
     .formDiv {
       display: flex;
       justify-content: center;
@@ -485,10 +479,10 @@ img.socialIcon {
     input, textarea {
       width: 300px;
       background-color: #f8cfcf;
-      color: #7899b8ff;
+      color: #a56767;
       font-weight: 700;
       font-size: 16px;
-      border: 1px solid #7899b8ff;
+      border: 1px solid #f8cfcf;
       border-radius: 5px;
       box-shadow: 0 1px 2px 0 rgba(250, 232, 232, 0.2), 0 6px 20px 0 rgba(253, 214, 214, 0.19);
     }
@@ -500,12 +494,13 @@ img.socialIcon {
     
     textarea {
       height: 100px;
-      padding: 5px;
+      padding: 4px;
+      text-align: center;
     }
     
     .formAlign {
       display: flex;
-      justify-content: flex-end;
+      justify-content: center;
       padding: 5px;
     }
     
@@ -533,10 +528,6 @@ img.socialIcon {
         top: 2px;
         transition: ease 0.3s;
         transform: translate3d(0px, 2px, 0px);
-      }
-
-      .rc-container {
-        background-color: #b2cdf1;
       }
       
   
@@ -784,7 +775,7 @@ img.socialIcon {
     }
     
     
-    input {
+    input, textArea {
       width: 198px;
     }
 
