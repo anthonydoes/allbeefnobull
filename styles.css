@@ -169,7 +169,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 50px;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #c99898;
     font-size: 30px;
     text-transform: uppercase;
   }
@@ -469,7 +469,8 @@ img.socialIcon {
       }
 
       .productHeader {
-          padding-top: 20px;
+          padding-top: 30px;
+          font-size: 26px
       }
 
       section.product {
