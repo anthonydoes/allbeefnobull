@@ -361,18 +361,11 @@ img.socialIcon {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        background-color: #fdc3c5c4;
-        color: #3a3a3a;
         border-radius: 0;
       }
 
       div.heroDiv p {
           font-weight: 900;
-      }
-
-      a.button {
-          color: #3a3a3a;
-          border-color: #3a3a3a;
       }
 
       .productHeader {
