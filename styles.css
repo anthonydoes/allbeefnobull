@@ -76,7 +76,7 @@ body {
   
   .menu-icon {
     transition: ease 0.3s;
-    filter: invert(1);
+    width: 35px;
   }
   
   .menu-icon:hover {
