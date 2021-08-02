@@ -431,6 +431,110 @@ img.socialIcon {
         margin-bottom: 60px;
         color: #fefefe;
       }
+
+
+      /* Contact */
+
+      section.contact-page {
+          margin: 110px 150px 100px 150px;
+          display: block;
+      }
+
+      .contact-page h2 {
+          font-size: 40px;
+          margin-bottom: -10px;
+
+      }
+
+      .contact-page p {
+          font-size: 18px;
+          font-weight: 600;
+      }
+
+      .contact-page a {
+          text-decoration: none;
+          color: #3a3a3a;
+          border-bottom: 2px solid #3a3a3a;
+      }
+
+      div.contactCopy {
+          margin-bottom: 30px;
+          text-align: center;
+      }
+
+/* FORM */
+
+      form {
+        margin-right: 100px;
+        margin-left: 100px;
+        padding: 25px 200px 25px 200px;
+        border-radius: 3%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    
+    label {
+      color: #3a3a3a;
+      font-weight: 900;
+      padding-right: 15px;
+    }
+    
+    .formDiv {
+      display: flex;
+      justify-content: center;
+    }
+    
+    input, textarea {
+      width: 300px;
+      background-color: #f8cfcf;
+      color: #7899b8ff;
+      font-weight: 700;
+      font-size: 16px;
+      border: 1px solid #7899b8ff;
+      border-radius: 5px;
+      box-shadow: 0 1px 2px 0 rgba(250, 232, 232, 0.2), 0 6px 20px 0 rgba(253, 214, 214, 0.19);
+    }
+    
+    input {
+      height: 25px;
+      text-align: center;
+    }
+    
+    textarea {
+      height: 100px;
+      padding: 5px;
+    }
+    
+    .formAlign {
+      display: flex;
+      justify-content: flex-end;
+      padding: 5px;
+    }
+    
+    .button {
+      background-color: #a56767;
+      border-color: #a56767;
+      color: #f8cfcf;
+      font-weight: 700;
+      font-size: 18px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+      padding: 25px 80px;
+      box-shadow: 0 6px #383838;
+      font-family: Roboto;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: ease 0.3s;
+    }
+    
+    .button:hover {
+        background-color: #f8cfcf;
+        border-color: #f8cfcf;
+        color: #a56767;
+        top: 2px;
+        transition: ease 0.3s;
+        transform: translate3d(0px, 2px, 0px);
+      }
       
   
   /* Responsive */
