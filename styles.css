@@ -440,6 +440,10 @@ img.socialIcon {
         width: 350px;
     }
 
+    .menu-icon {
+        padding-right: 15px;
+    }
+
     nav.menu {
         right: 35px;
         top: 30%;
