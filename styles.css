@@ -171,7 +171,6 @@ body {
   .largeHeader {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
     border-bottom: 5px solid #c99898;
     font-size: 30px;
     text-transform: uppercase;
@@ -198,8 +197,7 @@ body {
   img.productImage{
       margin: 40px;
       width: 600px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+      box-shadow:  0px 0px 0 rgb(0 0 0 / 20%), 0 6px 26px 0 rgb(0 0 0 / 19%)  }
 
   a.productButton {
     display: inline-block;
@@ -223,6 +221,7 @@ body {
 
   .dogs {
     overflow: hidden;
+    margin-top: 100px;
   }
   
   .dogs img {
@@ -616,13 +615,44 @@ img.socialIcon {
         align-items: flex-start;
         margin: 50px 0 50px 0;
     }
+
+    .menu-toggle {
+      position: absolute;
+      top: -2px;
+      right: 0px;
+    }
+
+    .largeHeader {
+      margin: 0 20px 20px 20px;
+      padding-bottom: 50px;
+      font-size: 34px;
+    }
 }
 
 @media (max-width: 1100px) {
+
+  .menu-toggle {
+    position: absolute;
+    top: -15px;
+    right: 20px;
+  }
+
     img.productImage {
         padding: 0;
         height: 200px;
         margin-top: 120px;
+    }
+
+    form {
+      margin: 150px 0 290px 0;
+    }
+
+    .dogs {
+      margin-top: 25px;
+    }
+
+    .largeHeader {
+      padding-top: 0;
     }
 }
 
@@ -668,8 +698,8 @@ img.socialIcon {
 
       .largeHeader {
           padding-top: 30px;
-          font-size: 26px
-      }
+          font-size: 18px;
+        }
 
       section.product {
           display: block;
@@ -707,6 +737,10 @@ img.socialIcon {
         text-align: center;
     }
 
+    .dogs {
+      margin-top: 60px;
+    }
+
     a.topButton {
         display: none;
     }
@@ -742,6 +776,35 @@ img.socialIcon {
         font-size: 22px;
     }
 
+    /* Form */
+    form {
+      max-width: 300px;
+      padding: 25px;
+      margin: 5px 0 30px 0;
+    }
+    
+    
+    input {
+      width: 198px;
+    }
+
+    .formDiv {
+      margin-top: -50px;
+    }
+
+    .contact-page p {
+      font-size: 16px;
+      font-weight: 500;
+      text-align: left;
+  }
+
+.contact-page h2 {
+    text-align: left;
+}
+
+footer {
+  width: auto;
+}
 
 }
 
