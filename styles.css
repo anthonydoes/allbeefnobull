@@ -254,7 +254,7 @@ img.socialIcon {
   
   footer a {
       text-decoration: none;
-      color:#6193ee;
+      color:#b2cdf1;
   }
   
   /* Responsive */
@@ -295,27 +295,6 @@ img.socialIcon {
     header nav {
       /*   This keeps the nav vertically aligned with our h1   */
       line-height: 24px;
-    }
-  }
-  
-  @media (max-width: 420px) {
-    header h1,
-    header nav {
-      float: none;
-    }
-  
-    header nav a {
-      margin-left: 0;
-      margin-right: 12px;
-    }
-  
-    .flowers img {
-      float: none;
-      width: auto;
-    }
-  
-    footer {
-      padding: 30px 20px;
     }
   }
   
@@ -364,6 +343,72 @@ img.socialIcon {
         padding: 0;
         width: 50%;
     }
+}
+
+@media (max-width: 500px) {
+
+    .hero {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    div.heroDiv {
+        max-width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: #fdc3c5c4;
+        color: #3a3a3a;
+        border-radius: 0;
+      }
+
+      div.heroDiv p {
+          font-weight: 900;
+      }
+
+      a.button {
+          color: #3a3a3a;
+          border-color: #3a3a3a;
+      }
+
+      section.product {
+          display: block;
+      }
+
+      div.productCopy { 
+        padding: 30px;
+      }
+
+      section.productReverse {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: -90px;
+    }
+
+      img.productImage {
+        padding: 0;
+        width: 100%;
+        border-radius: 20px;
+        margin-right: 5px;
+    }
+
+    section.quotes {
+        display: block;
+    }
+
+    a.buyMoreButton {
+        font-size: 16px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+    }
+
 }
 
   
