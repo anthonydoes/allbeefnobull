@@ -196,8 +196,9 @@ body {
   }
 
   img.productImage{
-      padding: 40px;
+      margin: 40px;
       width: 600px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   a.productButton {
@@ -496,15 +497,24 @@ img.socialIcon {
 
 @media (max-width:800px) {
     img.productImage {
-        margin-top: 150px;
-        margin-right: 50px;    
+        margin-top: 15px !important;
+    }
+
+    div.productCopy {
+        padding: 5px;
+    }
+
+    section.product {
+        align-items: flex-start;
+        margin: 50px 0 50px 0;
     }
 }
 
 @media (max-width: 1100px) {
     img.productImage {
         padding: 0;
-        width: 50%;
+        height: 200px;
+        margin-top: 120px;
     }
 }
 
@@ -570,8 +580,8 @@ img.socialIcon {
 
       img.productImage {
         padding: 0;
-        width: 100%;
-        border-radius: 20px;
+        width: 300px;
+        border-radius: 5px;
         margin-right: 5px;
         margin-top: 80px;
     }
