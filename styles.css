@@ -535,6 +535,10 @@ img.socialIcon {
         transition: ease 0.3s;
         transform: translate3d(0px, 2px, 0px);
       }
+
+      .rc-container {
+        background-color: #b2cdf1;
+      }
       
   
   /* Responsive */
