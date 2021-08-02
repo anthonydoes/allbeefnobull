@@ -23,5 +23,23 @@ $('.menu-toggle').on('click', function() {
     })
   })
   
-  
+  // smooth scrolling
+
+const scrollLinks = document.querySelectorAll('.js-scroll')
+scrollLinks.forEach(link => {
+
+  link.addEventListener('click', () => {
+ 
+    event.preventDefault()
+    
+   const href = link.getAttribute('href')
+   console.log(href)
+    document.querySelector(href).scrollIntoView({
+      behavior: 'smooth' 
+    })
+  })
+})
+
+
+
   

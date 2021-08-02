@@ -344,6 +344,19 @@ img.socialIcon {
       text-decoration: none;
       color:#b2cdf1;
   }
+
+  a.topButton {
+      border: 1px solid #fefefe;
+      padding: 10px;
+      transition: 0.5s ease;
+  }
+
+  a.topButton:hover {
+      background-color: #fefefe;
+      color: #3a3a3a;
+      transition: 0.5s ease;
+      border-radius: 15px;
+  }
   
   /* Responsive */
   
