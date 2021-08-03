@@ -489,11 +489,12 @@ img.socialIcon {
     input, textarea {
       width: 300px;
       background-color: #f8cfcf;
+      padding: 10px;
       color: #a56767;
       font-weight: 700;
-      font-size: 16px;
+      font-size: 18px;
       border: 1px solid #f8cfcf;
-      font-family: Roboto;
+      font-family: David Libre;
       text-transform: capitalize;
       border-radius: 5px;
       box-shadow: 0 1px 2px 0 rgba(250, 232, 232, 0.2), 0 6px 20px 0 rgba(253, 214, 214, 0.19);
