@@ -441,6 +441,26 @@ img.socialIcon {
         color: #fefefe;
       }
 
+      div.instagram {
+        display: flex;
+        justify-content: center;
+        padding: 100px;
+      }
+
+      a.instagramButton  {
+        text-decoration: none;
+        border: 2px solid #3a3a3a;
+        color: #3a3a3a;
+        padding: 20px;
+        transition: 0.5s ease;
+      }
+
+      a.instagramButton:hover {
+        background-color: #3a3a3a;
+        color: #fefefe;
+        transition: 0.5s ease;
+      }
+
 
       /* Contact */
 
@@ -778,6 +798,14 @@ img.socialIcon {
     .largeHeaderTestimonial {
         font-size: 18px;
         font-weight: 900;
+    }
+
+    div.instagram {
+      padding: 50px;
+    }
+
+    a.instagramButton  {
+      padding: 10px;
     }
 
     /* Form */
