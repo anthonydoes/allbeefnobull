@@ -1,3 +1,4 @@
+
 // Menu toggle
 
 $('.menu-toggle').on('click', function() {
