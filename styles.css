@@ -483,6 +483,8 @@ img.socialIcon {
       font-weight: 700;
       font-size: 16px;
       border: 1px solid #f8cfcf;
+      font-family: Roboto;
+      text-transform: capitalize;
       border-radius: 5px;
       box-shadow: 0 1px 2px 0 rgba(250, 232, 232, 0.2), 0 6px 20px 0 rgba(253, 214, 214, 0.19);
     }
