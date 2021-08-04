@@ -515,7 +515,6 @@ img.socialIcon {
       font-size: 18px;
       border: 1px solid #f8cfcf;
       font-family: David Libre;
-      text-transform: capitalize;
       border-radius: 5px;
       box-shadow: 0 1px 2px 0 rgba(250, 232, 232, 0.2), 0 6px 20px 0 rgba(253, 214, 214, 0.19);
     }
@@ -561,6 +560,11 @@ img.socialIcon {
         top: 2px;
         transition: ease 0.3s;
         transform: translate3d(0px, 2px, 0px);
+      }
+
+      .g-recaptcha div:first-child
+      {
+        margin: auto;
       }
       
   
@@ -842,4 +846,14 @@ footer {
 
 }
 
+@media (min-width: 1800px) {
+  div.heroDiv {
+    margin-top: 140px;
+  }
+
+  div.productCopy {
+    width: 430px;
+  }
+
+}
   
