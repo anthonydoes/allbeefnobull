@@ -566,19 +566,6 @@ img.socialIcon {
       {
         margin: auto;
       }
-
-      .rc-anchor-light.rc-anchor-normal {
-        background: #f8cfcf;
-        color: #3a3a3a;
-      }
-
-      .rc-anchor-checkbox-label {
-        font-weight: 900;
-        color: #a56767;
-        font-size: 18px;
-        font-family: David Libre;
-      }
-      
   
   /* Responsive */
   
