@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700,700italic,regular,italic|David+Libre:700,regular');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700;800;900&display=swap');
 
 
 body {
@@ -136,7 +137,7 @@ body {
   }
   
   .hero h2 {
-    font-family: David Libre;
+    font-family: 'Spartan', sans-serif;
     font-size: 64px;
     line-height: 1;
     margin-bottom: 15px;
@@ -160,6 +161,7 @@ body {
     font-size: 18px;
     font-weight: 700;
     transition: 0.6s ease;
+    font-family: 'Spartan', sans-serif;
   }
 
   a.button:hover {
@@ -174,7 +176,7 @@ body {
     border-bottom: 5px solid #c99898;
     font-size: 30px;
     text-transform: uppercase;
-    font-family: David Libre;
+    font-family: 'Spartan', sans-serif;
   }
 
   p.shipping {
@@ -191,7 +193,7 @@ body {
   }
 
   .productCopy h2 {
-    font-family: David Libre;
+    font-family: 'Spartan', sans-serif;
   }
 
   div.productCopy {
@@ -221,6 +223,18 @@ body {
     background-color: #c99898;
     color: #f3f3fe;
     transition: 0.6s ease;
+}
+
+div.aboutProduct {
+  margin: 60px auto 60px auto;
+  width: 800px;
+  line-height: 1.5;
+}
+
+a.aboutProduct {
+  text-decoration: none;
+  color: #47353a;
+  border-bottom: 2px solid #47353a;
 }
 
   .dogs {
@@ -264,14 +278,14 @@ body {
   }
   
   .quotes blockquote {
-    font-family: David Libre;
-    font-size: 24px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 20px;
     line-height: 1.15;
     font-weight: 700;
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
-    margin: 15px auto 7px auto;
+    margin: 15px auto 20px auto;
   }
 
   div.testimonials {
@@ -322,6 +336,7 @@ body {
     text-decoration: none;
     font-size: 30px;
     font-weight: 700;
+    font-family: 'Spartan', sans-serif;
     transition: 0.6s ease;
     box-shadow:  0px 0px 0 rgb(0 0 0 / 20%), 0 6px 26px 0 rgb(0 0 0 / 19%);
 
@@ -429,7 +444,7 @@ img.socialIcon {
   }
 
   .aboutCopy h2 {
-    font-family: David Libre;
+    font-family: 'Spartan', sans-serif;
   }
 
 
@@ -462,6 +477,11 @@ img.socialIcon {
         transition: 0.5s ease;
       }
 
+      .largeHeaderTestimonial {
+        font-size: 30px;
+        font-weight: 900;
+    }
+
 
       /* Contact */
 
@@ -473,7 +493,7 @@ img.socialIcon {
       .contact-page h2 {
           font-size: 40px;
           margin-bottom: -10px;
-          font-family: David Libre;
+          font-family: 'Spartan', sans-serif;
       }
 
       .contact-page p {
@@ -514,7 +534,7 @@ img.socialIcon {
       font-weight: 700;
       font-size: 18px;
       border: 1px solid #f8cfcf;
-      font-family: David Libre;
+      font-family: 'Spartan', sans-serif;
       border-radius: 5px;
       box-shadow: 0 1px 2px 0 rgba(250, 232, 232, 0.2), 0 6px 20px 0 rgba(253, 214, 214, 0.19);
     }
@@ -547,7 +567,7 @@ img.socialIcon {
       border-radius: 20px;
       padding: 25px 80px;
       box-shadow: 0 6px #383838;
-      font-family: Roboto;
+      font-family: 'Spartan', sans-serif;
       text-transform: uppercase;
       cursor: pointer;
       transition: ease 0.3s;
@@ -800,7 +820,7 @@ img.socialIcon {
     }
 
     .largeHeaderTestimonial {
-        font-size: 18px;
+        font-size: 24px;
         font-weight: 900;
     }
 
