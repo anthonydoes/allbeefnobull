@@ -771,6 +771,13 @@ img.socialIcon {
         margin-top: 80px;
     }
 
+    div.aboutProduct {
+      line-height: 1.6;
+      padding: 0px 15px 20px 15px;
+      width: auto;
+      margin: 0;
+    }
+
     section.quotes {
         display: block;
     }
