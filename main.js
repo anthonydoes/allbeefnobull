@@ -1,6 +1,6 @@
 $('body').append('<div style="" id="loadingDiv" class="loadingContainer"><div class="loader">Loading...</div></div>');
 $(window).on('load', function(){
-  setTimeout(removeLoader, 1800); //wait for page load PLUS two seconds.
+  setTimeout(removeLoader, 1000); //wait for page load PLUS two seconds.
 });
 function removeLoader(){
     $( "#loadingDiv" ).fadeOut(500, function() {
