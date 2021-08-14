@@ -254,7 +254,7 @@ body {
 
   img.productImage{
       margin: 40px;
-      width: 600px;
+      width: 420px;
       box-shadow:  0px 0px 0 rgb(0 0 0 / 20%), 0 6px 26px 0 rgb(0 0 0 / 19%)  }
 
   a.productButton {
@@ -263,7 +263,7 @@ body {
     border: 2px solid #ffffff;
     border-radius: 40px;
     padding: 10px 20px 10px 20px;
-    color: #f8cfcf;
+    color: #fefefe;
     background-color: #a56767;
     text-decoration: none;
     font-size: 18px;
@@ -738,7 +738,6 @@ img.socialIcon {
 
     img.productImage {
         padding: 0;
-        height: 200px;
         margin-top: 120px;
     }
 
